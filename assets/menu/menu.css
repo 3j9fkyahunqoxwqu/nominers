@@ -1,0 +1,35 @@
+html, body {
+    width: 100px;
+}
+
+.button {
+    margin: 3% auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.settings:hover {
+    background-color: #FF9800;
+}
+
+.settings {
+    background-color: #ffc947;
+}
+
+.report {
+    background-color: rgba(220, 20, 60, 0.6);
+}
+
+.report:hover {
+    background-color: rgba(180, 0, 30, 0.7);
+}
+
+.clear:hover {
+    background-color: #9E9E9E;
+}
+
+.clear {
+    background-color: #cfcfcf;
+}

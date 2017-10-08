@@ -1,0 +1,78 @@
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 125%;
+}
+
+label {
+    color: black;
+    font-size: 125%;
+    display: block;
+    float: left;
+    padding-right: 30%;
+    padding-left: 1%;
+}
+
+input[type=text] {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+h1 {
+    width: 99%;
+    border-bottom: 1px solid gray;
+    margin: 5px
+}
+
+/*Tip*/
+.tt {
+    position: relative;
+    display: inline-block;
+}
+
+.tt .ttt {
+    visibility: hidden;
+    width: 170px;
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 3px 0;
+    border-radius: 10px;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tt .ttt {
+    left: 30%;
+}
+
+.tt .ttt::after {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+}
+
+.tt .ttt {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.tt:hover .ttt {
+    opacity: 1;
+}
+
+.tt:hover .ttt {
+    visibility: visible;
+}

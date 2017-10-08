@@ -1,0 +1,24 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="svg_5_blur">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <title>background</title>
+        <rect fill="#fff" id="canvas_background" height="50" width="50" y="-1" x="-1"/>
+        <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+        </g>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <ellipse ry="20" rx="20" id="svg_1" cy="24" cx="24" stroke-width="2" stroke="#f22400" fill="#fff"/>
+        <ellipse ry="5" rx="5" id="svg_4" cy="24" cx="24" fill-opacity="null" stroke-width="21" stroke="#fca800"
+                 fill="#fff"/>
+        <text transform="rotate(16.9656, 24.4926, 24.3686) matrix(0.932201, 0, 0, 0.99528, 0.873385, -3.3014)" font-weight="bold" filter="url(#svg_5_blur)" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="24" id="svg_5" y="36.146364" x="16.670456" stroke-width="0" stroke="#ffffff" fill="#000000">B</text>
+        <line transform="rotate(-1.80044, 23.6875, 23.9141)" stroke-linecap="null" stroke-linejoin="null" id="svg_3"
+              y2="9.304688" x2="37.671875" y1="38.523438" x1="9.703125" fill-opacity="null" stroke-width="2"
+              stroke="#f22400" fill="none"/>
+    </g>
+</svg>

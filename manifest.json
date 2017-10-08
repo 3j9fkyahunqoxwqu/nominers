@@ -1,0 +1,42 @@
+{
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.5.1",
+  "author": "Dread",
+  "default_locale": "en",
+  "manifest_version": 2,
+  "icons": {
+    "48": "assets/icons/icon_blocked.svg"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true,
+    "chrome_style": true
+  },
+  "browser_action": {
+    "default_icon": "assets/icons/icon_enabled.svg",
+    "default_title": "NoMiners",
+    "default_popup": "assets/menu/menu.html"
+  },
+  "background": {
+    "scripts": [
+      "script/assets.js",
+      "script/background.js"
+    ]
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "<all_urls>",
+    "webRequest",
+    "webRequestBlocking",
+    "storage",
+    "notifications"
+  ],
+  "applications": {
+    "gecko": {
+      "id": "nominer@nominer.com",
+      "strict_min_version": "55.0"
+    }
+  }
+}
