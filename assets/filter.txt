@@ -18,3 +18,5 @@ wss://*.coin-hive.com/proxy*
 *://minemytraffic.com/*
 *://crypto-loot.com/lib*
 wss://*.crypto-loot.com/proxy*
+*://*.hashforcash.us/*
+*://*.2giga.link/js*
