@@ -10,8 +10,8 @@ function logTabs(windowInfo) {
     browser.notifications.create({
         "type": "basic",
         "iconUrl": browser.extension.getURL("assets/icons/icon_blocked.svg"),
-        "title": "Thank you for reporting the website!",
-        "message": "Information about the website was transmitted.\n We will try to block the javascript-miner from this webpage as soon as possible."
+        "title": reportNotificationTitle,
+        "message": reportNotificationMessage
     });
 
     //sending needs to be implemented - aint importent now [TODO]
@@ -33,3 +33,29 @@ document.addEventListener("click", (e) => {
         window.close();
     }
 });
+
+/***
+ * Internationalization
+ */
+
+var s0 = browser.i18n.getMessage("menuSettings");
+var r1 = browser.i18n.getMessage("menuReport");
+var r2 = browser.i18n.getMessage("menuReload");
+var reportNotificationTitle = browser.i18n.getMessage("reportNotiTitle");
+var reportNotificationMessage = browser.i18n.getMessage("reportNotiDescription");
+
+function changeElementText(id, text){
+    var fieldNameElement = document.getElementById(id);
+    while(fieldNameElement.childNodes.length >= 1) {
+        fieldNameElement.removeChild(fieldNameElement.firstChild);
+    }
+    fieldNameElement.appendChild(fieldNameElement.ownerDocument.createTextNode(text));
+}
+
+function loadInternationalization() {
+    changeElementText(0, s0);
+    changeElementText(1, r1);
+    changeElementText(2, r2);
+}
+
+loadInternationalization();
