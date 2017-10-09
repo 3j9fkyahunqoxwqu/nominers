@@ -1,6 +1,6 @@
 let domains = [];
 let detectedDomains = [];
-const blacklist = 'https://gitlab.com/LoyalDread/nominers/raw/master/filter.txt';
+const blacklist = 'https://raw.githubusercontent.com/Shaa3/nominers/master/assets/filter.txt';
 
 const getRootDomain = (url) => {
     const match = url.match(/:\/\/(.[^/]+)/);
