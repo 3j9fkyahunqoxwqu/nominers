@@ -1,0 +1,30 @@
+{
+  "extensionName": {
+    "message": "NoMiners | DE |"
+  },
+
+  "extensionDescription": {
+    "message": "Halte dir Miner vom Hals!"
+  },
+
+  "menuSettings": {
+    "message": "Einstellungen"
+  },
+
+  "menuReport": {
+    "message": "Melden"
+  },
+
+  "menuReload": {
+    "message": "Neu laden"
+  },
+
+  "reportNotiTitle": {
+    "message": "Vielen Dank das sie diese Seite gemeldet haben!"
+  },
+
+  "reportNotiDescription": {
+    "message": "Wir werden den Javascript-Miner auf dieser Seite so schnell wie möglich blockieren."
+  }
+
+}

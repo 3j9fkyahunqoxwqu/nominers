@@ -1,0 +1,30 @@
+{
+  "extensionName": {
+    "message": "NoMiners | EN |"
+  },
+
+  "extensionDescription": {
+    "message": "Keep those miners away!"
+  },
+
+  "menuSettings": {
+    "message": "Settings"
+  },
+
+  "menuReport": {
+    "message": "Report"
+  },
+
+  "menuReload": {
+    "message": "Reload"
+  },
+
+  "reportNotiTitle": {
+    "message": "Thank you for reporting the website!"
+  },
+
+  "reportNotiDescription": {
+    "message": "Information about the website was transmitted. We will try to block the javascript-miner from this webpage as soon as possible."
+  }
+
+}
