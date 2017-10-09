@@ -1,0 +1,31 @@
+{
+  "extensionName": {
+    "message": "NoMiners | PL |"
+  },
+
+  "extensionDescription": {
+    "message": "Blokuj Javascript Miner!"
+  },
+
+  "menuSettings": {
+    "message": "Zachód"
+  },
+
+  "menuReport": {
+    "message": "Raport"
+  },
+
+  "menuReload": {
+    "message": "Przeładować "
+  },
+
+  "reportNotiTitle": {
+    "message": "Thank you for reporting the website!"
+  },
+
+  "reportNotiDescription": {
+    "message": "Information about the website was transmitted. We will try to block the javascript-miner from this webpage as soon as possible."
+  }
+
+
+}

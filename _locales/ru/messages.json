@@ -1,0 +1,31 @@
+{
+  "extensionName": {
+    "message": "NoMiners | RU |"
+  },
+
+  "extensionDescription": {
+    "message": "Заблокировать Javascript Miner"
+  },
+
+  "menuSettings": {
+    "message": "настройки"
+  },
+
+  "menuReport": {
+    "message": "отчет"
+  },
+
+  "menuReload": {
+    "message": "перезагружать"
+  },
+
+  "reportNotiTitle": {
+    "message": "Thank you for reporting the website!"
+  },
+
+  "reportNotiDescription": {
+    "message": "Information about the website was transmitted. We will try to block the javascript-miner from this webpage as soon as possible."
+  }
+
+
+}
