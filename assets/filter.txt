@@ -5,7 +5,6 @@ wss://*.crypto-loot.com/proxy*
 *://coin-hive.com/lib*
 *://coinhive.com/captcha*
 *://coin-hive.com/captcha*
-*://jsecoin.com/server*
 *://*.jsecoin.com/server*
 *://server.jsecoin.com/*
 *://*.server.jsecoin.com/*
@@ -20,3 +19,4 @@ wss://*.crypto-loot.com/proxy*
 *://crypto-loot.com/lib*
 *://*.hashforcash.us/*
 *://*.2giga.link/js*
+*://*.ppoi.org/*
