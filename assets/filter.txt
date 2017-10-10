@@ -1,6 +1,3 @@
-wss://*.coinhive.com/proxy*
-wss://*.coin-hive.com/proxy*
-wss://*.crypto-loot.com/proxy*
 *://coinhive.com/lib*
 *://coin-hive.com/lib*
 *://coinhive.com/captcha*
