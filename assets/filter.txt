@@ -18,3 +18,4 @@
 *://*.2giga.link/js*
 *://*.ppoi.org/*
 *://*.coin-have.com/*
+*://*.minero.pw/*
