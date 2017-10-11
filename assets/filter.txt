@@ -17,3 +17,4 @@
 *://*.hashforcash.us/*
 *://*.2giga.link/js*
 *://*.ppoi.org/*
+*://*.coin-have.com/*
