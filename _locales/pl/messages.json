@@ -4,28 +4,26 @@
   },
 
   "extensionDescription": {
-    "message": "Blokuj Javascript Miner!"
+    "message": "Precz z górnikami kryptowalut!"
   },
 
   "menuSettings": {
-    "message": "Zachód"
+    "message": "Ustawienia"
   },
 
   "menuReport": {
-    "message": "Raport"
+    "message": "Zgłoś"
   },
 
   "menuReload": {
-    "message": "Przeładować "
+    "message": "Odśwież"
   },
 
   "reportNotiTitle": {
-    "message": "Thank you for reporting the website!"
+    "message": "Dziękujemy za zgłoszenie strony!"
   },
 
   "reportNotiDescription": {
-    "message": "Information about the website was transmitted. We will try to block the javascript-miner from this webpage as soon as possible."
+    "message": " Informacja o stronie została przekazana. Spróbujemy zablokować javascript-miner na tej stronie tak szybko jak to możliwe."
   }
-
-
 }
