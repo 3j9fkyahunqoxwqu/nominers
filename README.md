@@ -10,9 +10,10 @@ If you are an administrator of a webpage that is listed by this addon and you wa
 
 * create an issue 
 * send email to: sha3dev@gmail.com. 
-######Such requests are only accepted if any kind of javascript-miner is removed.
+
+###### Such requests are only accepted if any kind of javascript-miner is removed.
  
  
-####Grab the extension from: 
+#### Grab the extension from: 
 
 [![FireFox Add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_1.png)](https://addons.mozilla.org/en-US/firefox/addon/nominers/)
