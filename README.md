@@ -5,7 +5,7 @@ NoMiners is an Add-on that tries to block cryptominers such as coinhive.
 Blocking those pesky miner scripts will relieve your CPU and BATTERY while browsing the web.
 
 
-###Removing urls from filterlist
+### Removing urls from filterlist
 If you are an administrator of a webpage that is listed by this addon and you want it removed from the filterlist:
 
 * create an issue 
