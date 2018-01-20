@@ -1,0 +1,30 @@
+{
+  "extensionName": {
+    "message": "NoMiners | PT-BR |"
+  },
+
+  "extensionDescription": {
+    "message": "Mantenha os mineradores afastados!"
+  },
+
+  "menuSettings": {
+    "message": "Configurações"
+  },
+
+  "menuReport": {
+    "message": "Reportar"
+  },
+
+  "menuReload": {
+    "message": "Recarregar"
+  },
+
+  "reportNotiTitle": {
+    "message": "Obrigado por reportar esse site!"
+  },
+
+  "reportNotiDescription": {
+    "message": "As informações sobre esse site foram transmitidas. Vamos tentar bloquear o javascript-minerador dessa página, o mais rápido possível."
+  }
+
+}
