@@ -1,12 +1,21 @@
 {
   "name": "__MSG_extensionName__",
+  "short_name": "__MSG_extensionNameShort__",
   "description": "__MSG_extensionDescription__",
-  "version": "0.5.3",
-  "author": "Dread",
+  "version": "0.6",
+  "author": "Shaa3",
+  "homepage_url": "https://github.com/Shaa3/nominers",
   "default_locale": "en",
   "manifest_version": 2,
+  "incognito": "spanning",
   "icons": {
-    "48": "assets/icons/icon_blocked.svg"
+    "48": "assets/icons/icon_blocked.svg",
+	"96": "assets/icons/icon_blocked.svg",
+	"24": "assets/icons/icon_blocked.svg"
+  },
+  "developer": {
+	"name": "Shaa3",
+	"url": "https://github.com/Shaa3"
   },
   "options_ui": {
     "page": "options/options.html",
