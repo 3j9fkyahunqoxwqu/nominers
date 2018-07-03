@@ -3,6 +3,10 @@
     "message": "NoMiners | RU |"
   },
 
+  "extensionNameShort": {
+    "message": "NoMiners"
+  },
+  
   "extensionDescription": {
     "message": "Заблокировать Javascript Miner"
   },
@@ -26,6 +30,5 @@
   "reportNotiDescription": {
     "message": "Information about the website was transmitted. We will try to block the javascript-miner from this webpage as soon as possible."
   }
-
 
 }

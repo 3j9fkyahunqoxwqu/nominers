@@ -3,6 +3,10 @@
     "message": "NoMiners | PL |"
   },
 
+  "extensionNameShort": {
+    "message": "NoMiners"
+  },
+  
   "extensionDescription": {
     "message": "Precz z górnikami kryptowalut!"
   },

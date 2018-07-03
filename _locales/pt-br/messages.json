@@ -3,6 +3,10 @@
     "message": "NoMiners | PT-BR |"
   },
 
+  "extensionNameShort": {
+    "message": "NoMiners"
+  },
+  
   "extensionDescription": {
     "message": "Mantenha os mineradores afastados!"
   },

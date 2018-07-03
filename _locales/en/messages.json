@@ -3,6 +3,10 @@
     "message": "NoMiners | EN |"
   },
 
+  "extensionNameShort": {
+    "message": "NoMiners"
+  },
+  
   "extensionDescription": {
     "message": "Keep those miners away!"
   },
