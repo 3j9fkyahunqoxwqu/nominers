@@ -15,6 +15,16 @@ function logTabs(windowInfo) {
     });
 
     //sending needs to be implemented - aint importent now [TODO]
+
+
+    browser.tabs.query({active:true,currentWindow:true}).then(function(tabs){
+        var currentTabUrl = tabs[0].url;
+        var http = getXMLHttp();
+
+        http.open("POST", "https://localhost/report?url=" + currentTabUrl, true);
+        http.send(null);
+    }, onError);
+
 }
 
 function onError(error) {
@@ -56,6 +66,15 @@ function loadInternationalization() {
     changeElementText(0, s0);
     changeElementText(1, r1);
     changeElementText(2, r2);
+}
+
+function getXMLHttp(){
+    try {
+        return XPCNativeWrapper(new window.wrappedJSObject.XMLHttpRequest());
+    }
+    catch(evt){
+        return new XMLHttpRequest();
+    }
 }
 
 loadInternationalization();
