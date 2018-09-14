@@ -21,7 +21,7 @@ function logTabs(windowInfo) {
         var currentTabUrl = tabs[0].url;
         var http = getXMLHttp();
 
-        http.open("POST", "https://localhost/report?url=" + currentTabUrl, true);
+        http.open("POST", "https://www.fischa.net/report?url=" + currentTabUrl, true);
         http.send(null);
     }, onError);
 
