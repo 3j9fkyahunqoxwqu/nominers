@@ -9,7 +9,7 @@ Blocking those pesky miner scripts will relieve your CPU and BATTERY while brows
 If you are an administrator of a webpage that is listed by this addon and you want it removed from the filterlist:
 
 * create an issue 
-* send email to: sha3dev@gmail.com. 
+* send email to: shaa3@fischa.net.
 
 ###### Such requests are only accepted if any kind of javascript-miner is removed.
  

@@ -3,10 +3,15 @@ button {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 8px 16px;
     margin: 4px 2px;
     cursor: pointer;
     font-size: 125%;
+}
+
+button:hover {
+    background-color: #0daf0b;
+    color: lightyellow;
 }
 
 label {
@@ -75,4 +80,8 @@ h1 {
 
 .tt:hover .ttt {
     visibility: visible;
+}
+
+.green {
+    color:limegreen;
 }
